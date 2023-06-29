@@ -1,0 +1,53 @@
+body{
+  background-image: url(img/fundo.palavras.png);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  }
+h2{
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+#jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .alimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alimento-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding-bottom: 5%;
+  }
+  img{
+    width: 6rem;
+    height: 7rem;
+  }
+
+  input {
+    margin-top: 5px;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .wrong {
+    color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

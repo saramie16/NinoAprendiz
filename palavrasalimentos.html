@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo de Alimentos</title>
+  <link rel="stylesheet" type="text/css" href="alimentos.css">
+</head>
+<body>
+  <h2>Escreva, em espanhol, o nome dos alimentos a seguir:</h2>
+  <div id="jogo">
+    <div id="alimentos-superiores" class="alimentos">
+      <div class="alimento-container">
+        <img src="img/Pera.png" alt="Pera" onclick="playAudio('audio1')">
+        <audio id="audio1" src="audios/audio1.mp3"></audio>
+        <input id="input1" type="text" placeholder="Digite o nome do alimento em espanhol" oninput="checkAnswer('input1', 'alimento1')">
+    </div>
+    <div class="alimento-container">
+        <img src="img/MANZANA.png" alt="Manzana" onclick="playAudio('audio2')">
+        <audio id="audio2" src="audios/audio1.mp3"></audio>
+        <input id="input2" type="text" placeholder="Digite o nome do alimento em espanhol" oninput="checkAnswer('input2', 'alimento2')">
+    </div>
+    <div class="alimento-container">
+        <img src="img/PLÁTANO.png" alt="Plátano" onclick="playAudio('audio3')">
+        <audio id="audio3" src="audios/audio1.mp3"></audio>
+        <input id="input3" type="text" placeholder="Digite o nome do alimento em espanhol" oninput="checkAnswer('input3', 'alimento3')">
+    </div>
+    <div class="alimento-container">
+        <img src="img/Palomitas.png" alt="Palomitas" onclick="playAudio('audio4')">
+        <audio id="audio4" src="audios/audio1.mp3"></audio>
+        <input id="input4" type="text" placeholder="Digite o nome do alimento em espanhol" oninput="checkAnswer('input4', 'alimento4')">
+    </div>
+    </div>
+    <div id="alimentos-inferiores" class="alimentos">
+      <div class="alimento-container">
+        <img src="img/Piña.png" alt="Piña" onclick="playAudio('audio5')">
+        <audio id="audio5" src="audios/audio6.mp3"></audio>
+        <input id="input5" type="text" placeholder="Digite o nome do alimento em espanhol" oninput="checkAnswer('input5', 'alimento5')">
+      </div>
+      <div class="alimento-container">
+        <img src="img/Zanahoria.png" alt="Zanahoria" onclick="playAudio('audio6')">
+        <audio id="audio6" src="audios/audio6.mp3"></audio>
+        <input id="input6" type="text" placeholder="Digite o nome do alimento em espanhol" oninput="checkAnswer('input6', 'alimento6')">
+      </div>
+      <div class="alimento-container">
+        <img src="img/Chocolate.png" alt="Chocolate" onclick="playAudio('audio7')">
+        <audio id="audio7" src="audios/audio6.mp3"></audio>
+        <input id="input7" type="text" placeholder="Digite o nome do alimento em espanhol" oninput="checkAnswer('input7', 'alimento7')">
+      </div>
+      <div class="alimento-container">
+        <img src="img/Helado.png" alt="Helado" onclick="playAudio('audio8')">
+        <audio id="audio8" src="audios/audio6.mp3"></audio>
+        <input id="input8" type="text" placeholder="Digite o nome do alimento em espanhol" oninput="checkAnswer('input8', 'alimento8')">
+      </div>
+    </div>
+  </div>
+
+  <script src="alimentos.js"></script>
+</body>
+</html>
